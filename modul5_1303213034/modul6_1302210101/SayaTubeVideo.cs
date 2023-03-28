@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -26,7 +27,7 @@ namespace modul6_1302210101
 
         public void IncreasePlayCount(int play)
         {
-            Debug.Assert(playCount > 0 && playCount <= 25000000);
+            Contract.Requires(playCount > 0 && playCount <= 25000000);
             try
             {
                 checked

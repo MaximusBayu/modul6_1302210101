@@ -5,9 +5,13 @@ using modul6_1302210101;
 SayaTubeUser max = new SayaTubeUser("MAX");
 
 SayaTubeVideo video = new SayaTubeVideo("REVIEW FILM DOG OLEH MAX");
+
+for (int i = 0; i < 1000; i++) { 
+    video.IncreasePlayCount(1000000000);
+}
 SayaTubeVideo video2 = new SayaTubeVideo("REVIEW FILM DOG2 OLEH MAX");
 SayaTubeVideo video3 = new SayaTubeVideo("REVIEW FILM DOG3 OLEH MAX");
-SayaTubeVideo video4 = new SayaTubeVideo("REVIEW FILM DOG4 OLEH MAXR");
+SayaTubeVideo video4 = new SayaTubeVideo("REVIEW FILM DOG4 OLEH MAX");
 SayaTubeVideo video5 = new SayaTubeVideo("REVIEW FILM DOG5 OLEH MAX");
 SayaTubeVideo video6 = new SayaTubeVideo("REVIEW FILM DOG6 OLEH MAX");
 SayaTubeVideo video7 = new SayaTubeVideo("REVIEW FILM DOG7 OLEH MAX");
